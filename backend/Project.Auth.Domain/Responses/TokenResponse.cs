@@ -4,15 +4,15 @@ namespace Project.Auth.Domain.Responses;
 
 public class TokenResponse
 {
-    [JsonPropertyName("access_token")]
+    [JsonPropertyName("accessToken")]
     public string AccessToken { get; set; }
 
-    [JsonPropertyName("refresh_token")]
+    [JsonPropertyName("refreshToken")]
     public string RefreshToken { get; set; }
     
-    [JsonPropertyName("expires_in")]
+    [JsonPropertyName("expiresIn")]
     public int ExpiresIn { get; set; }
 
-    [JsonPropertyName("token_type")]
+    [JsonPropertyName("tokeType")]
     public string TokenType { get; set; }
 }

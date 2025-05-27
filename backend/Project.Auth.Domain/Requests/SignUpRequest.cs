@@ -5,11 +5,11 @@ namespace Project.Auth.Domain.Requests;
 
 public class SignUpRequest
 {
-    [JsonPropertyName("firstame")]
+    [JsonPropertyName("firstName")]
     [FromForm(Name = "first_name")]
     public string FirstName { get; set; }
 
-    [JsonPropertyName("lastname")]
+    [JsonPropertyName("lastName")]
     [FromForm(Name = "last_name")]
     public string LasttName { get; set; }
 

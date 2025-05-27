@@ -5,10 +5,10 @@ namespace Project.Auth.Domain.Responses;
 
 public class ProfileResponse
 {
-    [JsonPropertyName("firstame")]
+    [JsonPropertyName("firstName")]
     public string FirstName { get; set; }
 
-    [JsonPropertyName("lastname")]
+    [JsonPropertyName("lastName")]
     public string LasttName { get; set; }
 
     [JsonPropertyName("gender")]
